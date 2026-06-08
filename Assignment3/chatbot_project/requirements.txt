@@ -1,0 +1,29 @@
+# ============================================================
+# requirements.txt — Manifest for MSCS-633-A01 Assignment 3
+# ChatterBot Q&A Terminal Client (Django/Python)
+#
+# Author : Saru Bhandari
+# Course : MSCS-633-A01 Advanced Artificial Intelligence
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Web framework (project scaffolding and settings management)
+Django>=4.2,<7.0
+
+# Conversational AI engine
+ChatterBot==1.2.13
+
+# Corpus data for training the bot (greetings, conversations, etc.)
+chatterbot_corpus==1.2.0
+
+# Natural language processing toolkit (ChatterBot dependency)
+nltk>=3.8
+
+# Math / data utilities (ChatterBot dependency)
+pytz>=2023.3
+SQLAlchemy>=1.4
+
+spacy>=3.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
