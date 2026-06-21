@@ -1,0 +1,14 @@
+# Fraud Detection with PyOD AutoEncoder — dependency manifest
+# Install with:  pip install -r requirements.txt
+#
+# Versions below were used to develop and test the project. The torch wheel
+# is the CPU/GPU build from PyPI; for a CPU-only install you may instead use
+# the PyTorch CPU index: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+pyod==3.6.1
+torch==2.12.1
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+tqdm==4.68.3
